@@ -30,5 +30,5 @@ Get your API key at [CoinAPI](https://www.coinapi.io/).
 For support and queries, please open an issue in the repository or contact albertotabogr@gmail.com.
 
 ## Credits
-Developed by Alberto Taboada. Thanks to CoinAPI for providing the
+Developed by Alberto Taboada. Thanks to CoinAPI for providing the docs and the API Key
 
