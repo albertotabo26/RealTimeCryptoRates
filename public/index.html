@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Exchange Rates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Crypto Exchange Rate Checker</h1>
+    <div id="form-container">
+        <label for="crypto-select">
+            Cryptocurrency
+            <span class="info-icon" title="Select a cryptocurrency">ℹ️</span>
+        </label>
+        <select id="crypto-select">
+        </select>
+
+        <label for="currency-select">
+            Traditional Currency
+            <span class="info-icon" title="Select a traditional currency">ℹ️</span>
+        </label>
+        <select id="currency-select">
+        </select>
+
+        <button id="get-rate-btn">Get Exchange Rate</button>
+    </div>
+
+    <div id="rate-display">
+    </div>
+    <div class="link-to-guide">
+        <a href="/quickstart">Quick Start Guide</a>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
